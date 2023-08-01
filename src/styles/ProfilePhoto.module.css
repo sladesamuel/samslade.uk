@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+
+.profile {
+  border-radius: 50%;
+}

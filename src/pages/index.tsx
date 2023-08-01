@@ -6,7 +6,7 @@ import SocialLinks from '@/components/SocialLinks'
 const Home = () => (
   <>
     <Head>
-      <title>Create Next App</title>
+      <title>Samuel Slade</title>
       <meta name="description" content="Samuel Slade | Aspiring CTO, Cloud Architect, Software Developer" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
