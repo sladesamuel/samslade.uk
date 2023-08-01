@@ -9,9 +9,9 @@ const ProfilePhoto = () => (
       className={styles.profile}
       src={profile}
       alt="Samuel Slade"
-      layout="fill"
-      objectFit="cover"
       placeholder="blur"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      fill
     />
   </div>
 )

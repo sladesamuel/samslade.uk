@@ -1,6 +1,6 @@
 type Link = {
   text: string;
-  link: string;
+  url: string;
 };
 
 export default Link;
