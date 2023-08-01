@@ -11,7 +11,7 @@ const Profile = () => (
     </h1>
 
     <h3 className={styles.title}>
-      Aspiring CTO | Cloud Architect | Software Developer
+      Aspiring CTO | Cloud Architect | Platform Engineer | Software Developer
     </h3>
   </div>
 )
