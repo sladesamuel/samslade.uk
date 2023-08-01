@@ -6,7 +6,7 @@ const Profile = () => (
   <div className={styles.container}>
     <ProfilePhoto />
 
-    <div>Samuel Slade</div>
+    <h1>Samuel Slade</h1>
   </div>
 )
 
