@@ -6,7 +6,13 @@ const Profile = () => (
   <div className={styles.container}>
     <ProfilePhoto />
 
-    <h1>Samuel Slade</h1>
+    <h1 className={styles.name}>
+      Samuel Slade
+    </h1>
+
+    <h3 className={styles.title}>
+      Aspiring CTO | Cloud Architect | Software Developer
+    </h3>
   </div>
 )
 
