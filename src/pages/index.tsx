@@ -27,6 +27,10 @@ const Home = () => (
         </div>
       </div>
     </main>
+
+    <footer className={styles.footer}>
+      <p>info@samslade.uk</p>
+    </footer>
   </>
 )
 

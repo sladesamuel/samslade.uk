@@ -45,6 +45,14 @@
   align-items: center;
 }
 
+.footer {
+  position: fixed;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
   .content {
