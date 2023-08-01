@@ -10,9 +10,9 @@ const Profile = () => (
       Samuel Slade
     </h1>
 
-    <h3 className={styles.title}>
+    <p className={styles.title}>
       Aspiring CTO | Cloud Architect | Platform Engineer | Software Developer
-    </h3>
+    </p>
   </div>
 )
 
