@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
+import Profile from '@/components/Profile'
+import SocialLinks from '@/components/SocialLinks'
 
 const Home = () => (
   <>
@@ -11,7 +13,10 @@ const Home = () => (
     </Head>
     <main className={styles.main}>
       <div className={styles.center}>
-        TODO
+        <div className={styles.content}>
+          <Profile />
+          <SocialLinks />
+        </div>
       </div>
     </main>
   </>
