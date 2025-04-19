@@ -20,15 +20,18 @@
 
 .topLeft {
   position: absolute;
-  display: inline-block;
-  top: 0;
-  left: 0;
-  height: auto;
-  width: auto;
+  top: -0.5rem;
+  left: -0.5rem;
 }
 
 .topRight {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -0.5rem;
+  right: -0.5rem;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: -0.5rem;
+  left: -0.5rem;
 }

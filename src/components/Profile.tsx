@@ -1,7 +1,9 @@
 import { memo } from "react"
 import ProfilePhoto from "./ProfilePhoto"
 import styles from "@/styles/Profile.module.css"
+import AmberFalconGames from "@/components/AmberFalconGames"
 import Bucketscan from "@/components/Bucketscan"
+import Darkerzard from "@/components/Darkerzard"
 
 const Profile = () => (
   <div className={styles.container}>
@@ -13,7 +15,11 @@ const Profile = () => (
       </div>
 
       <div className={styles.topRight}>
-        {/* TODO: Darkerzard Image */}
+        <AmberFalconGames />
+      </div>
+
+      <div className={styles.bottomLeft}>
+        <Darkerzard />
       </div>
     </div>
 

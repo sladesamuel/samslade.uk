@@ -25,6 +25,8 @@ const RoundImage = ({ image, size, alt }: Props) => (
       alt={alt}
       placeholder="blur"
       sizes={convertSizeToStyle(size)}
+      height={size === "small" ? 48 : undefined}
+      width={size === "small" ? 48 : undefined}
       fill={size === "medium"}
     />
   </div>
