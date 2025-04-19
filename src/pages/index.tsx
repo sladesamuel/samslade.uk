@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Profile from '@/components/Profile'
 import SocialLinks from '@/components/SocialLinks'
 import { Roboto } from "next/font/google"
+import DigitalProducts from '@/components/DigitalProducts'
 
 const font = Roboto({
   weight: ["100", "300"],
@@ -24,6 +25,7 @@ const Home = () => (
         <div className={styles.content}>
           <Profile />
           <SocialLinks />
+          <DigitalProducts />
         </div>
       </div>
     </main>
