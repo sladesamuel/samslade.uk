@@ -1,10 +1,14 @@
-.container {
+.mediumContainer {
   position: relative;
   width: 10rem;
   height: 10rem;
 }
 
-.profile {
+.smallContainer {
+  position: relative;
+}
+
+.image {
   border-radius: 50%;
   object-fit: cover;
 }

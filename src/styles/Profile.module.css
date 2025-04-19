@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,4 +12,23 @@
 
 .title {
   padding-top: 1rem;
+}
+
+.businesses {
+  position: relative;
+}
+
+.topLeft {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+}
+
+.topRight {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

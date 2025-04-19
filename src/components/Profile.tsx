@@ -1,10 +1,21 @@
 import { memo } from "react"
 import ProfilePhoto from "./ProfilePhoto"
 import styles from "@/styles/Profile.module.css"
+import Bucketscan from "@/components/Bucketscan"
 
 const Profile = () => (
   <div className={styles.container}>
-    <ProfilePhoto />
+    <div className={styles.businesses}>
+      <ProfilePhoto />
+
+      <div className={styles.topLeft}>
+        <Bucketscan />
+      </div>
+
+      <div className={styles.topRight}>
+        {/* TODO: Darkerzard Image */}
+      </div>
+    </div>
 
     <h1 className={styles.name}>
       Samuel Slade
